@@ -6,7 +6,7 @@ public class hw_4_2 {
     int varIntTest = 10;
     double varDoubleTest = 1.0;
     double result = varIntTest + varDoubleTest;
-    int result2 = varIntTest + (int)varDoubleTest;
+    int result2 = varIntTest + (int) varDoubleTest;
     System.out.println(result);
     System.out.println(result2);
   }
