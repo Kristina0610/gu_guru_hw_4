@@ -6,13 +6,19 @@ package hw_4;
 
 public class hw_4_1 {
   public static void main(String[] args) {
-    byte varByte = 10 + 127;
-    short varShort = 10 - 32787;
-    int varInt = 1 * 2147483648;
+    byte varByte1 = 10;
+    byte varByte2 = 127;
+    System.out.println(varByte1+varByte2);
 
-    System.out.println(varInt);
-    System.out.println(varByte);
-    System.out.println(varShort);
+    short varShort1 = 1000;
+    short varShort2 = 3278;
+    System.out.println(varShort1*varShort2);
+
+    int varInt1 = 2;
+    int varInt2 = 2147483647;
+    System.out.println(varInt1*varInt2);
+
+
 
     int age = 6;
     boolean canGoToSchool = age >= 6 && age < 18;
